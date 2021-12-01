@@ -6,7 +6,7 @@
 
 .nav {
     padding: 10px;
-    background-color: rgb(21 51 75);
+    background-color: rgb(155, 6, 6);
     display: flex;
     justify-content: space-between;
 }
@@ -35,39 +35,46 @@
     color: white;
     padding: 10px;
 }
-.greeting{
-    
-    background-color: rgb(109 116 126);
+.banner{
+    margin-top: 2%;
+    background-color: rgb(184 218 219);
     text-align: center;    
-    margin-top: 20px;
-    height: 150px;
+    padding: 1%;
+    display: flex;
     justify-content: center;
-    color: white;
 }
-.greeting h2{
-    align-self: center;
-    padding-top: 60px;
-    font-size: 30px;
+.banner-block{
+    font-size: 20px;
+    text-align: left;
+    margin: 1%;
+}
+.banner-block h2{
+    margin-top: 1%;
 }
 .our-products {
     text-align: center;
 }
-.products{
+.news{
     display: flex;
     justify-content: space-between;
     padding: 0px;
 }
-.product{
+.news-block{
     border: 1px solid rgb(226, 226, 226);
+    width: 20%;
 }
-.product-description{
-    margin-left: 20px;
+.news img{
+    width: 100%;
 }
-.buy-btn{
-    background-color: blue;
+.news-description{
+    margin: 5%;
+}
+.news-btn{
+    background-color: rgb(155, 15, 5);
     color: #fff;
-    width: max-content;
-    font-size: larger;
+    border: none;
+    width: 100px;
+    height: 30px;
     margin-bottom: 10px;
 }
 .footer{
