@@ -1,0 +1,45 @@
+.container {
+    width: 960px;
+    margin-left: auto;
+}
+
+.nav {
+    padding: 20px;
+    background-color: #4682B4;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-items {
+    display: flex;
+}
+
+.nav-items li {
+    display: block;
+}
+
+
+
+.btn button {
+    padding: 10px;
+    background-color: #FFE4B5;
+    color: #000;
+    border-radius: 5px;
+}
+
+.green {
+    background-color: yellowgreen;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.pink {
+    background-color: pink;
+}

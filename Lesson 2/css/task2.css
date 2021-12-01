@@ -1,0 +1,90 @@
+.container {
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    padding: 10px;
+    background-color: rgb(34, 34, 134);
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.nav-items {
+    display: flex;
+}
+
+.nav-items li {
+    display: block;
+    color: white;
+    padding: 10px;
+}
+.page{
+    display: flex;
+    padding: 0px;
+    margin: 20px;
+}
+.signin{
+    display: inline;
+    margin-right: 40px;
+}
+.input {
+    line-height: 30px;
+}
+.button{
+    margin-top: 20px;
+    width: 100px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 6px;
+}
+.news{
+    display: inline-block;
+    width: 840px;
+    margin-right: 40px;
+}
+.news-block .img{
+    width: 840px;
+}
+.table{
+    display: inline;
+    margin-top: 20px;
+    width: max-content;
+    padding: auto;
+}
+
+.table th{
+    background-color: black;
+    color: white;
+    padding: 7px;
+}
+td{
+    font-size: 12px;
+    padding: 5px;
+}
+.place1{
+    background-color: green;
+    color: white;
+}
+.place2{
+    background-color: rgb(123, 240, 152);
+    color: black;
+}
+.place3{
+    background-color: rgb(248, 248, 238);
+    color: black;
+}
+.place4{
+    background-color: rgba(219, 132, 193, 0.699);
+    color: black;
+}

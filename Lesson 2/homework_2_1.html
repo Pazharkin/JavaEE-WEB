@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task #1</title>
+    <style>
+        .block1{
+            width: 500px;
+            margin-left: 10px;
+        }
+        .block2{
+            width: 110px;
+            display: inline-block;
+            margin-left: 10px;
+            padding: 0px;
+        }
+        .block3 {
+            width: 150px;
+            display: inline-block;
+            margin-left: 10px;
+            padding: 0px;
+        }
+        .input{
+         line-height: 40px; 
+        }
+        #time{
+            width: 100px;
+            height: 40px;
+        }
+        #cinema_name{
+            width: 150px;
+            height: 40px;
+        }
+        .button{
+            width: auto;
+            padding: 5px;
+            background-color: black;
+            color: white;
+            margin: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="block1">
+        <h4>Название фильма:</h4>
+        <input type="text" class="input" name="input" placeholder="Название фильма" size="56"><br>
+    </div>
+    <div class="block3"><h4>Кинотеатры:</h4>
+         <select name="cinema_name" id="cinema_name">
+          <option>Paramount City</option>
+          <option>Kinopark Atakent</option>
+          <option>Chaplin</option>
+        </select>
+    </div>
+    <div class="block2">
+        <h4>Время сеанса:</h4>
+        <select name="time" id="time">
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+        </select>
+    </div>
+    <div class="block2">
+        <select name="time" id="time">
+            <option>10</option>
+            <option>20</option>
+            <option>30</option>
+        </select>
+    </div>
+    <div>
+        <button class="button">Поиск Фильма</button>
+    </div>
+</body>
+</html>
