@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content{
+            width: auto;
+            margin: 20%;
+        }
+        .form{
+            display: flex;
+            justify-content: space-between;
+            width: 300px;
+        }
+        .f{
+            display: inline-table;
+            margin: 10px;
+        }
+        button{
+            background-color: blue;
+            color: #fff;
+        }
+        .result{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+    <div class = "form">
+    <div class="f">Login: </div>
+    <div class="f"><input id = "login" type="text"></div>
+    </div>
+    <div class = "form">
+    <div class="f">Password: </div>
+    <div class="f"><input id = "password" type="password"></div>
+    </div>
+    <div class = "form">
+        <div class="f"></div>
+        <div class="f"><button id = "auth" onclick="auth();">SIGN IN</button></div>
+        </div>
+    <div class="result" id="result"></div>
+    </div>
+    <script src="js/hm.js"></script>  
+</body>
+</html>

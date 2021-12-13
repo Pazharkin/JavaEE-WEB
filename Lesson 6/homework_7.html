@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content{
+            display: flex;
+            margin: 20px;
+            justify-content: space-around;
+        }
+        .result{
+            background-color: rgba(211, 211, 211, 0.616);
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="column">
+            <p>Введите сумму:</p>
+            <div class="input">
+                <input id = "amount" type="text" size="10">
+                <select id="currency" onclick="task7()">
+                    <option id="kzt">KZT</option>
+                    <option id="usd">USD</option>
+                    <option id="eur">EUR</option>
+                </select>
+
+            </div>
+        </div>
+        <div class="column">
+            <p>KZT (tenge)</p>
+            <input class="result" id = "convertTenge" type="text" readonly>
+        </div>
+        <div class="column">
+            <p>USD (dollar)</p>
+            <input class="result" id = "convertDollar" type="text" readonly>
+        </div>
+        <div class="column">
+            <p>EUR (euro)</p>
+            <input class="result" id = "convertEuro" type="text" readonly>
+        </div>
+    </div>
+    <script src="js/hm.js"></script>
+</body>
+</html>
