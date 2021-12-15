@@ -1,0 +1,53 @@
+.container {
+    width: auto;
+    margin-left: 43%;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    text-align: left;
+}
+
+.nav {
+    padding: 10px;
+    background-color: rgb(21 51 75);
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav .logo{
+    font-size: 30px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.nav-items {
+    display: flex;
+}
+
+.nav-items li {
+    display: block;
+    color: white;
+    padding: 10px;
+}
+.alert {
+    color: red;
+}
+.profile{
+    
+}
+h2{
+    margin-bottom: 30px;
+}
+button{
+    background-color: rgb(21 51 75);
+    color: white;
+}

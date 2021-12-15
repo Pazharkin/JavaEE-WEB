@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <style>
+        .content{
+            width: 25%;
+            display: block;
+            justify-content: center;
+        }
+        .product{
+            border: 1px solid black;
+            padding: 20px;
+        }
+        button{
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="product" id="1">
+            <h2 id = "product_name" class="name">IPhone 12 Pro</h2>
+            <p id="price1" class="price">1200$</p>
+            <p id = "description">6 GB RAM, 128 GB, double front camera</p>
+            <button id="btn1" onclick="add(1)">+ ADD TO BASKET</button>
+        </div>
+        <div class="product" id="2">
+            <h2 id = "product_name2" class="name">XIAOMI MI11 ULTRA</h2>
+            <p id="price2" class="price">1500$</p>
+            <p id = "description">24 GB RAM, SSD 1 TB</p>
+            <button id="btn2" onclick="add(2)">+ ADD TO BASKET</button>
+        </div>
+        <div class="product" id="3">
+            <h2 id = "product_name3"  class="name">ASUS Tuf Gaming Pro</h2>
+            <p id="price3" class="price">2000$</p>
+            <p id = "description">2178 RAM, very strong laptop</p>
+            <button id="btn3" onclick="add(3)">+ ADD TO BASKET</button>
+        </div>
+        <div class="product" id="4">
+            <h2 id = "product_name4" class="name">Samsung Note 21</h2>
+            <p id="price4" class="price">1000$</p>
+            <p id = "description">4GB RAM, 4 camera</p>
+            <button id="btn4" onclick="add(4)">+ ADD TO BASKET</button>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

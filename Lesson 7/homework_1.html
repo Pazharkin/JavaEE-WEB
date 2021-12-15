@@ -29,7 +29,7 @@
     </style>
 </head>
 
-<body>
+<body onload="load()">
     <div class="form"><span>NAME:</span> <input type="text" id="name"></div>
     <div class="form"><span>SURNAME:</span> <input type="text" id="surname"></div>
     <div class="form"><span>COUNTRY:</span> <select id="country">
@@ -39,7 +39,7 @@
         </select></div>
     <div class="form"><span>Phone Number:</span> <input type="tel" id="tel"></div>
     <div class="form"> <button id="reg" class="reg">REGISTER</button>
-        <button id="save" class="save">SAVE TO DRAFT</button>
+        <button id="save" class="save" onclick="save()">SAVE TO DRAFT</button>
     </div>
     <script src="js/main.js"></script>
 </body>
