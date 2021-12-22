@@ -142,18 +142,16 @@ function task7(){
 
     switch(currency){
         case 'KZT': 
-        tenge.innerText = '-';
-        console.log(tenge.innerText);
+        tenge.value = '-';
         dollar.value = (amount/431).toFixed(3);
         euro.value = (amount/509).toFixed(3);
-        amount.value = 0;
         break;
         case 'EUR': tenge.value = amount*509;
         dollar.value = (amount*1.18).toFixed(3);
-        euro.innerText = '-';
+        euro.value = '-';
         break;
         case 'USD': tenge.value = amount*431;
-        dollar.innerText = ' - ';
+        dollar.value = ' - ';
         euro.value = (amount*0.85).toFixed(3);
         break;
         default: 

@@ -1,0 +1,104 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    height: 100%;
+}
+.index-logo{
+
+    margin-top: 5%;
+}
+.half-2{
+    margin-bottom: 10%;
+    margin-left: 5%;
+}
+.half-2-h1{
+    font-size: 70;
+    font-weight: 700;
+    margin-bottom: 10%;
+}
+.half-2-h3{
+    font-size: 30;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+.half-2-h4{
+    margin-bottom: 5%;
+}
+.btn-primary{
+    border-radius: 15px;
+    font-weight: 600;
+    width: 250px;
+}
+.btn-outline-secondary{
+    border-radius: 15px;
+    font-weight: 600;
+    color: rgb(0, 110, 255);
+    width: 250px;
+}
+.half-2 p{
+    font-size: 10;
+    width: 60%;
+    padding-top: 2%;
+    margin-bottom: 5%;
+}
+.footer{
+   text-align: center;
+}
+.footer span{
+    font-size: 12;
+    padding: 10px;
+}
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-close{
+    margin-left: 10px !important;
+}
+#modal-logo{
+    margin-right: 200px;
+}
+.heading{
+    font-size: 30;
+    font-weight: 700;
+}
+.modal-info{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.modal-footer{
+    align-items: center;
+}
+.register{
+    width: 450px;
+}
+.bday{
+    display: flex !important;
+    justify-content: space-around;
+}
+.nav ul{
+    text-decoration: none;
+}
+.content-field{
+    margin: -5px;
+    padding: 0;
+}
+#content.alert{
+    color: red;
+    font-size: 18px;
+    text-align: center;
+    padding: 0px !important;
+    margin-bottom: -15px;
+}
+.alert{
+    color: red;
+    font-size: 18px;
+    text-align: center;
+    padding: 0px !important;
+    margin-bottom: -15px;
+    margin-top: 10px;
+}
